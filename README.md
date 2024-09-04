@@ -1,4 +1,3 @@
-Here’s a simplified `README.md` for your project:
 
 ```markdown
 # Image Matching Project
