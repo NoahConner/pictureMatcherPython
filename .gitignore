@@ -1,17 +1,18 @@
-# Ignore virtual environment folder
-venv/
-
-# Ignore Python bytecode files
-*.pyc
-__pycache__/
-
-# Ignore environment configuration files
-.env
-
-# Ignore IDE and editor directories
+# Exclude Git and IDE files
+.git/
+.gitignore
 .vscode/
 .idea/
 
-# Ignore system files
+# Exclude virtual environments and build artifacts
+venv/
+*.pyc
+__pycache__/
+
+# Exclude environment and system files
+.env
 .DS_Store
 *.swp
+
+# Exclude test files and directories
+tests/
